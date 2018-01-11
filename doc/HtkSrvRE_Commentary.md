@@ -11,9 +11,9 @@ The main agents are a web server (hieratika server) which adapts itself to a pla
 For the PSPS plant system, particular data is serialised to file in XML format, and this can be loaded into in-memory python representations which are then operated upon via interaction with the user through the web interface (or REST API?).
 
 1. Server is initialised from a .ini file which contains key/value settings in three main stanzas:
-..1. hieratika web server setup : location of html; definition of the server class; broadcast IP + port ; syntax marker
-..1. plant system server configuration : base directory, locks, xmlId accelerators and cache settings, autocreation flag, links to permissions
-..1. authenication information and group definition
+1.1 hieratika web server setup : location of html; definition of the server class; broadcast IP + port ; syntax marker
+1.1 plant system server configuration : base directory, locks, xmlId accelerators and cache settings, autocreation flag, links to permissions
+1.1 authenication information and group definition
 
 ## Server Class API Overview
 
