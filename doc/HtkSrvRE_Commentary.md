@@ -1,5 +1,7 @@
 # Hieratika Server Reverse Engineered Commentary.
 
+Version : Aberdeen
+
 Expected life of this document short : a means to an end and to start getting feedback on what I grok and what I don't.
 
 Methodology : starting from hieratika/servers/psps/pspsserver a quick look through the code.  Some thoughts.
