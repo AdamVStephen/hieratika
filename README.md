@@ -1,4 +1,9 @@
-TODO
+# HOWTO
+To startup the server, one of the invocations that works is :
+
+python2.7 -m hieratika.wservermain -H 0.0.0.0 -p 7000 -i ../demo/server/psps/psps.distributed.ini
+
+# TODO
 -   Design and implement the concept of pulses (DAP) - NOT DONE
 -   Create the statistics backend
 -   Design and implement smart reference counter for libraries/schedules usage (in order to avoid deletion)
